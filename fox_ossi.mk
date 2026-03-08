@@ -1,14 +1,10 @@
 # OrangeFox Recovery Build Configuration for Realme Narzo 60X (ossi)
-# This replaces twrp_ossi.mk for OrangeFox-12.1 builds
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, device/oplus/ossi/device.mk)
-
-# OrangeFox-specific inheritance (NOT TWRP)
-$(call inherit-product, vendor/orangefox/config/common.mk)
 
 # Device identification
 PRODUCT_DEVICE := ossi

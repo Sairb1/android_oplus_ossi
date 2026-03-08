@@ -121,7 +121,7 @@ BOARD_AVB_ENABLE := false
 
 # ── VNDK / Treble ─────────────────────────────────────────────────────────────
 BOARD_VNDK_VERSION := current
-BOARD_SYSTEMSDK_VERSIONS := 33
+BOARD_SYSTEMSDK_VERSIONS := 32
 
 # ── Crypto / FBE v2 ───────────────────────────────────────────────────────────
 # CRITICAL: These flags MUST remain for FBE v2 metadata decryption
