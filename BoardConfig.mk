@@ -154,6 +154,9 @@ TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
 TARGET_SCREEN_HEIGHT  := 2400
 TARGET_SCREEN_WIDTH   := 1080
 TARGET_SCREEN_DENSITY := 480
+TW_MAX_BRIGHTNESS := 3264
+TW_DEFAULT_BRIGHTNESS := 1632
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 
 # ─────────────────────────────────────────────────────────────────────────────
 # ORANGEFOX-SPECIFIC UI CONFIGURATION (Replaces TWRP TW_* flags)
